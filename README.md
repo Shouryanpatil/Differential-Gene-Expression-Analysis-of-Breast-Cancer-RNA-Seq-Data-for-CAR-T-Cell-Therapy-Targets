@@ -17,8 +17,8 @@ This project identifies potential CAR-T cell therapy targets for breast cancer b
 ## Installation
 ```bash
 # Clone the repository
-git clone https://github.com/Shouryanpatil/your-repo.git
-cd your-repo
+git clone https://github.com/Shouryanpatil/Differential-Gene-Expression-Analysis-of-Breast-Cancer-RNA-Seq-Data-for-CAR-T-Cell-Therapy-Targets
+cd Differential-Gene-Expression-Analysis-of-Breast-Cancer-RNA-Seq-Data-for-CAR-T-Cell-Therapy-Targets
 
 # Install R (version 4.3.2 or higher) and required packages
 install.packages(c("DESeq2", "ggplot2", "pheatmap", "dplyr", "EnhancedVolcano"))
@@ -34,8 +34,8 @@ BiocManager::install("DESeq2")
 - Place the `.tsv` files in a `data/` folder within the repository.
 
 ### 2. Prepare Metadata
-- Create a metadata file (`metadata.csv`) classifying samples as `tumor` or `normal`.
-- Example: `data/metadata_example.csv`
+- Create a metadata file (`sample_metadata.csv`) classifying samples as `tumor` or `normal`.
+- Example: `data/sample_metadata.csv`
 
 ### 3. Run Analysis
 ```bash
@@ -93,7 +93,6 @@ your-repo/
   - dplyr
   - EnhancedVolcano
 
-> See `requirements.txt` for a complete list
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request with improvements or bug fixes.
