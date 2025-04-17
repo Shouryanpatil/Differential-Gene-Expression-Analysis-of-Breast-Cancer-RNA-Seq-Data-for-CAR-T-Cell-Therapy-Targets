@@ -70,7 +70,7 @@ Use this Markdown syntax to embed:
 ```
 your-repo/
 ├── data/                   # TCGA RNA-Seq data and metadata
-│   └── metadata_example.csv
+│   └── sample_metadata.csv
 ├── images/                 # Visualization outputs
 │   ├── pca.png
 │   ├── ma.png
@@ -79,9 +79,9 @@ your-repo/
 │   └── boxplot.png
 ├── scripts/                # R scripts for analysis
 │   └── dge_analysis.R
-├── results/                # Output tables and plots
-├── README.md               # This file
-└── requirements.txt        # List of R packages
+├── results/                # Output 
+└── README.md               # This file
+ 
 ```
 
 ## Dependencies
@@ -98,7 +98,7 @@ your-repo/
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request with improvements or bug fixes.
 
-## 📄 License
+## License
 MIT License
 
 ## References
@@ -106,7 +106,7 @@ MIT License
 2. Zhang, H., et al. (2022). *CAR-T Therapy in Breast Cancer*. [DOI:10.3389/fimmu.2022.887471](https://doi.org/10.3389/fimmu.2022.887471)
 3. Schettini, F., et al. (2021). *Cell Surface Targets for CAR-T in Breast Cancer*. [DOI:10.1016/j.esmoop.2021.100102](https://doi.org/10.1016/j.esmoop.2021.100102)
 
-## 📬 Contact
+## Contact
 For questions, contact: **Shouryan Patil**  
 📧 work.shouryan@gmail.com
 
